@@ -1,7 +1,7 @@
 {
   "name": "nolang",
   "version": "0.0.1",
-  "description": "ReactNative version manager",
+  "description": "IO The Golang Way",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,15 +9,7 @@
 
   "author": "Howard Yeh",
   "license": "MIT",
-  "dependencies": {
+  "peerDependencies": {
     "babel-polyfill": "^6.3.14"
-  },
-  "devDependencies": {
-    "babel-core": "^6.3.26",
-    "babel-loader": "^6.2.0",
-    "babel-preset-es2015": "^6.3.13",
-    "ts-loader": "^0.7.2",
-    "typescript": "^1.7.5",
-    "webpack": "^1.12.9"
   }
 }
